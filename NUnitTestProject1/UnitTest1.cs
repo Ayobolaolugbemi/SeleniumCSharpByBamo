@@ -39,7 +39,7 @@ namespace NUnitTestProject1
            // Driver.FindElement(By.XPath("//div[@id='ContentPlaceHolder1_AllMealsCombo-dropmenu']//li[text()='Almond']")).Click();
 
 
-            Console.WriteLine("This is Test1");
+           
             Assert.Pass();
         }
     }
