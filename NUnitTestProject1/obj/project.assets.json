@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "Microsoft.CodeCoverage/16.5.0": {
         "type": "package",
         "compile": {
@@ -4563,7 +4563,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
@@ -4577,18 +4577,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayobola.olugbemi\\source\\repos\\NUnitTestProject1\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Ayobola.olugbemi\\Documents\\GitHub\\SeleniumCSharpByBamo\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "projectName": "NUnitTestProject1",
-      "projectPath": "C:\\Users\\Ayobola.olugbemi\\source\\repos\\NUnitTestProject1\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectPath": "C:\\Users\\Ayobola.olugbemi\\Documents\\GitHub\\SeleniumCSharpByBamo\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\Ayobola.olugbemi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayobola.olugbemi\\source\\repos\\NUnitTestProject1\\NUnitTestProject1\\obj\\",
+      "outputPath": "C:\\Users\\Ayobola.olugbemi\\Documents\\GitHub\\SeleniumCSharpByBamo\\NUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ayobola.olugbemi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -4596,8 +4596,8 @@
         "https://awstfs.taxact.com/tfs/Software%20Development/_packaging/TaxActPackageFeed/nuget/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -4608,8 +4608,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -4647,7 +4647,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
